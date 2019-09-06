@@ -11,7 +11,7 @@
     <template v-if="isLogin">
       <h1>Write and Share!</h1>
       <i class="edit el-icon-edit"></i>
-      <img class="avatar" src="" alt="">
+      <img class="avatar" src="http://cn.gravatar.com/avatar/1?s=128&d=identicon" alt="">
     </template>
   </header>
 </template>
