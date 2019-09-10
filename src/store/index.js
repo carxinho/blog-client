@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import auth from './moudle/auth'
-import blog from './moudle/blog'
+import auth from './modules/auth'
+import blog from './modules/blog'
 
 Vue.use(Vuex)
 
