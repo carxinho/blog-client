@@ -127,13 +127,14 @@ header.login {
       margin:0;
       padding: 0;
       background-color: #fff;
-
+      
       a {
         text-decoration: none;
         color: #333;
         font-size: 12px;
         display: block;
-        padding: 5px 10px;
+        padding: 5px;
+        margin: 5px 0;
 
         &:hover {
           background-color: #eaeaea;
