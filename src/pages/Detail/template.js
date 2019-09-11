@@ -13,7 +13,6 @@ export default {
     created(){
       this.blogId = this.$route.params.blogId
       blog.getDetail({blogId:this.blogId}).then(res =>{
-        console.log(res)
         this.user = res.data.user
         this.title = res.data.title
         this.createdAt = res.data.createdAt
