@@ -9,12 +9,12 @@
       </div>
     </template>
     <template v-if="isLogin">
-      <h1>Write and Share!</h1>
-      <i class="edit el-icon-edit"></i>
+      <h1><router-link to="/">Write and Share!</router-link></h1>
+      <router-link to="/create"><i class="edit el-icon-circle-plus-outline"></i></router-link>
       <div class="user">
         <img class="avatar" :src="user.avatar" :alt="user.username" :title="user.username">
         <ul>
-          <li><router-link to="my">我的</router-link></li>
+          <li><router-link to="/my">我的</router-link></li>
           <li><a href="#" @click="onLogout">注销</a></li>
         </ul>
       </div> 
@@ -100,6 +100,9 @@ header.login {
     font-size: 40px;
     text-transform: uppercase;
     flex: 1;
+    a{
+      color: #fff;
+    }
   }
 
   .edit {
