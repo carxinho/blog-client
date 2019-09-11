@@ -25,7 +25,6 @@
 <script>
   
   import auth from '@/api/auth'
-  window.auth = auth
 
   import { mapGetters, mapActions } from 'vuex'
 
@@ -53,6 +52,7 @@
 
       onLogout() {
         this.logout()
+        this.$router.push('/')
       }
     }
 }

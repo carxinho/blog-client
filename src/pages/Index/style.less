@@ -1,6 +1,10 @@
 @import "../../assets/base.less";
 
 #index {
+  a{
+    text-decoration: none;
+    color: black;
+  }
   .item {
     display: grid;
     grid: auto auto / 80px 1fr;
@@ -28,6 +32,7 @@
     h3 {
       grid-column: 2;
       grid-row: 1;
+      padding-left: 20px;
       &>span {
         color: @textLighterColor;
         font-size: 12px;
@@ -36,9 +41,14 @@
     }
 
     p {
+      padding-left: 20px;
       grid-column: 2;
       grid-row: 2;
       margin-top: 0;
     }  
+  }
+  .pageOption{
+    display: flex;
+    justify-content: center;
   }
 }
