@@ -18,7 +18,6 @@ export default {
       this.description = res.data.description
       this.content = res.data.content
       this.atIndex = res.data.atIndex
-      console.log(this.atIndex)
     })
   }, 
 

@@ -11,7 +11,6 @@
     <el-input type="textarea" :autosize="{ minRows: 4}" placeholder="请输入内容" v-model="content" maxlength="10000"></el-input>
     <p class="msg">{{content.length}}/10000</p>
     <div class="submit">
-      {{atIndex}}
       <label>是否展示到首页</label>
       <el-switch v-model="atIndex" active-color="#13ce66" inactive-color="#ff4949"></el-switch>
       <el-button class="submitButton" @click="onEdit">确定</el-button>
