@@ -11,7 +11,7 @@
       </router-link>
     </section>
     <section class="pageOption">
-      <el-pagination layout="prev, pager, next" :total=total @current-change="onPageChange">
+      <el-pagination layout="prev, pager, next" :current-page="page" :total=total @current-change="onPageChange">
       </el-pagination>
     </section>
   </div>
