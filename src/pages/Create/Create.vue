@@ -19,7 +19,7 @@
   </div>
 </template>
 
-<style src="./style.less"></style>
+<style src="./style.less" lang="less"></style>
 
 <script src="./template.js"></script>
 

@@ -26,7 +26,7 @@
   </div>
 </template>
 
-<style src="../My/style.less"></style>
+<style src="../My/style.less" lang="less"></style>
 
 <script src="./template.js"></script>
 
