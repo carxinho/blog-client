@@ -11,7 +11,7 @@
     "upload": "npm run build; cd dist; git init; git add .; git commit -am \"init\"; git remote add origin git@github.com:carxinho/blog-client.git; git push -f origin master;"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "element-ui": "^2.7.0",
     "marked": "^0.7.0",
     "vue": "^2.5.2",
